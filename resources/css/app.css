@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Calibri, 'sans-serif';
+}
+
+nav {
+    background-color: gainsboro;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #000;
+
+}
+
+.like-logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-side div {
+    margin: 0 10px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrap {
+    margin-top: 50px;
+}
+
+.pass-types {
+    display: flex;
+    flex-direction: row;
+}
+
+.pass-types a {
+    color: black;
+}
+
+.pass-types div {
+    margin-right: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.form div {
+    margin-top: 15px;
+}
+
+.pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d5d5d5;
+    border-radius: 10px;
+    padding: 25px 50px;
+    margin-top: 15px;
+}
+
+.pass_link{
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+}
+
+.pass-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.pass-text {
+}
+
+.text-item{
+    margin-top: 10px;
+}
+
+.full_pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.full_pass .pass_link{
+    height: 100%;
+    width: 100%;
+    background-color: #d5d5d5;
+}
+
+.block{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+
+.status-confirm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.status-confirm form{
+    margin: 50px 20px;
+}
+
+.status-confirm input{
+    font-size: 32px;
+    font-weight: bold;
+
+}
